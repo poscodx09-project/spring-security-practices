@@ -10,14 +10,13 @@
     <packaging>pom</packaging>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <springframework.version>6.2.1</springframework.version>
         <junit-jupiter.version>5.11.0</junit-jupiter.version>
         <hamcrest-core.version>3.0</hamcrest-core.version>
         <jakarta-servlet-api.version>6.0.0</jakarta-servlet-api.version>
-        <jakarta-jsp-api.version>4.0.0</jakarta-jsp-api.version>
         <jakarta-jsp-api.version>4.0.0</jakarta-jsp-api.version>
     </properties>
 
@@ -28,7 +27,6 @@
             <artifactId>spring-webmvc</artifactId>
             <version>${springframework.version}</version>
         </dependency>
-
         <!-- spring test -->
         <dependency>
             <groupId>org.springframework</groupId>
